@@ -5,7 +5,38 @@
 }
 
 :root {
-    --primary-color: #cc7ce2;
-    --seconday-color: #8bc0ee;
-    --tertiary-color: #1BDDC6;
+    --color1: #e4baf0;
+    --color2: #004886;
+    --color3: #1BDDC6;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+header {
+    background-color: var(--color1);
+    color: var(--color2);
+    display: flex;
+    justify-content: space-between;
+}
+
+header a {
+    text-decoration: none;
+    color: var(--color2);
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.55vw;
 }

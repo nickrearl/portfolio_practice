@@ -9,15 +9,18 @@ Create a site to showcase work I have compelted and use, the site itself will ne
 -----Instert screengrab of live site and link to the live version here------
 
 ## Credits
-Sources for placeholder images:
-The Run buddy website was developed as part of MSU coding bootcamp program. The mock up used as a starting point for this project was also provided by the program 
-Copyrighted as follows: © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+Source for banner:
+* https://www.monash.edu/mada/design
 
+Sources for placeholder images:
 * https://wallpaperaccess.com/fantasy-illustration
 * https://wallpapercave.com/wallpapers-hd-widescreen-fantasy
 * https://wallpapercave.com/hd-fantasy-wallpapers-1080p
 * https://www.pinterest.com/pin/415316396888085376/
 * https://hdqwalls.com/wallpaper/1920x1080/landscape-fantasy-art
+
+The Run buddy website was developed as part of MSU coding bootcamp program. The mock up used as a starting point for this project was also provided by the program 
+Copyrighted as follows: © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
 ## License
 MIT License

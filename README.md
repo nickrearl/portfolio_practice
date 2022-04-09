@@ -2,13 +2,16 @@
 This is a start to what will become my professional portfolio used to house examples of websites and apps I have coded to potential employers.
 
 ## Purpose
-Create a site to showcase work I have compelted and use, the site itself will need to look and function well.
+Create a site to showcase work I have compelted and use, the site itself will need to look and function well. This is being completed as part of MSUs coding bootcamp. While I should add my own flair to the site, it should share similar functionality to the example target mock-up that was provided:
+![alt text](./assets/images/challenge-demo.gif)
 
 ## Live site
 -----Instert screengrab of live site and link to the live version here------
 
 ## Credits
 Sources for placeholder images:
+The Run buddy website was developed as part of MSU coding bootcamp program. Copyrighted as follows: © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+
 * https://wallpaperaccess.com/fantasy-illustration
 * https://wallpapercave.com/wallpapers-hd-widescreen-fantasy
 * https://wallpapercave.com/hd-fantasy-wallpapers-1080p

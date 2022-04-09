@@ -10,7 +10,8 @@ Create a site to showcase work I have compelted and use, the site itself will ne
 
 ## Credits
 Sources for placeholder images:
-The Run buddy website was developed as part of MSU coding bootcamp program. Copyrighted as follows: © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
+The Run buddy website was developed as part of MSU coding bootcamp program. The mock up used as a starting point for this project was also provided by the program 
+Copyrighted as follows: © 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
 
 * https://wallpaperaccess.com/fantasy-illustration
 * https://wallpapercave.com/wallpapers-hd-widescreen-fantasy

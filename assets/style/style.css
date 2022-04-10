@@ -8,6 +8,7 @@
     --color1: #616161;
     --color2: #f30000;
     --color3: #01db30;
+    --color4: #0056ac;
 }
 
 body {
@@ -51,9 +52,18 @@ header nav ul li {
 }
 
 header nav ul li a {
+    color: var(--color2);
     margin: 15px;
     font-size: 20px;
-    color: var(--color2);
+    transition: .2s;
+}
+
+header nav ul li:hover {
+    background-color: var(--color2);
+}
+
+header nav ul li:hover > a {
+    color: var(--color1);
 }
 
 .hero {
@@ -76,3 +86,8 @@ header nav ul li a {
     color: var(--color1);
 }
 
+main {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--color4);
+}

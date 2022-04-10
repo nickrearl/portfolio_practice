@@ -2,7 +2,7 @@
 This is a start to what will become my professional portfolio used to house examples of websites and apps I have coded to potential employers.
 
 ## Purpose
-Create a site to showcase work I have compelted and use, the site itself will need to look and function well. This is being completed as part of MSUs coding bootcamp. While I should add my own flair to the site, it should share similar functionality to the example target mock-up that was provided:
+Create a site to showcase work I have compelted, the site itself will need to look and function well, making use of CSS flexboxes, and media queries to make sure it functions on multiple screen sizes. This is being completed as part of MSUs coding bootcamp, as this is being worked on early on in the program I do not have many completed projects currently there are placeholder images that link to the source of the image. While I will be adding my own flair to the site, it should share similar functionality to the example mock-up that was provided:
 ![alt text](./assets/images/challenge-demo.gif)
 
 ## Live site

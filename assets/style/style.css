@@ -99,11 +99,12 @@ header nav ul li:hover > a {
 }
 
 .title {
-    padding: 0 40px 50px 20px;
+    margin-top: 20px;
+    font-size: 36px;
+    color: var(--color1);
     display: flex;
-    text-align: center;
-    align-items: center;
-    flex: 0 0 8%;
+    text-align: right;
+    flex: 0 0 10%;
 }
 
 .about-me-content img {
@@ -167,4 +168,27 @@ header nav ul li:hover > a {
     z-index: 98;
     width: 80%;
     height: 70%;
+}
+
+footer {
+    display: flex;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: space-around;
+    border-left: solid 3px var(--color1);
+    margin: 40px;
+    padding: 20px;
+    flex: 0 0 90%;
+    text-align: center;
+}
+
+.contact-content a {
+    color: var(--color1);
+}
+
+.contact-content a img {
+    height: 100px;
+    width: 100px;
 }

@@ -88,7 +88,6 @@ header nav ul li:hover > a {
 
 .content-section {
     display: flex;
-    align-items: center;
 }
 
 .about-me-content {
@@ -103,6 +102,7 @@ header nav ul li:hover > a {
     padding: 0 40px 50px 20px;
     display: flex;
     text-align: center;
+    align-items: center;
     flex: 0 0 8%;
 }
 
@@ -117,50 +117,54 @@ header nav ul li:hover > a {
 
 .work-content {
     border-left: solid 3px var(--color1);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     margin: 40px;
     padding: 20px;
+}
+
+.example-main{
+    margin: 40px;
+}
+
+.examples{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 40px;
 }
 
 .example-card-main {
     position: absolute;
     background-color: var(--color2);
     color: var(--color1);
-    margin-right: 260px;
     z-index: 99;
+}
+
+.work-example {
+    flex: 0 0 50%;
 }
 
 
 .example-main img {
-    width: 800px;
-    height: 400px;
-    border: solid 2px var(--color2);
+    border: solid 3px var(--color2);
     position: relative;
     z-index: 98;
-}
-
-.examples {
-    display: flex;
-    flex-wrap: wrap;
+    width: 90%;
+    height: 90%
 }
 
 .example-card {
     position: absolute;
     background-color: var(--color2);
     color: var(--color1);
-    margin-right: 260px;
     z-index: 99;
 }
 
 .examples img {
-    width: 400px;
-    height: 200px;
-    border: solid 2px var(--color2);
+    border: solid 3px var(--color2);
     position: relative;
     z-index: 98;
-}
-
-.work-example {
-    margin: 20px
+    width: 80%;
+    height: 70%;
 }

@@ -13,6 +13,7 @@
 
 body {
     font-family: 'Times New Roman', Times, serif;
+    background-color: var(--color4);
 }
 
 header {
@@ -85,39 +86,81 @@ header nav ul li:hover > a {
     color: var(--color1);
 }
 
-.about-me {
+.content-section {
     display: flex;
-    align-content: center;
     align-items: center;
 }
 
 .about-me-content {
+    display: flex;
+    align-items: center;
     border-left: solid 3px var(--color1);
     margin: 40px;
+    padding: 20px;
 }
 
-.about-me h3 {
+.title {
     padding: 0 40px 50px 20px;
+    display: flex;
     text-align: center;
+    flex: 0 0 8%;
 }
 
 .about-me-content img {
     width: 300px;
     height: 300px;
-    margin: 20px;
 }
 
-.work {
+.about-me-content p{
+    padding-left: 20px;
+}
+
+.work-content {
+    border-left: solid 3px var(--color1);
+    margin: 40px;
+    padding: 20px;
     display: flex;
-
+    flex-direction: column;
 }
+
+.example-card-main {
+    position: absolute;
+    background-color: var(--color2);
+    color: var(--color1);
+    margin-right: 260px;
+    z-index: 99;
+}
+
 
 .example-main img {
-    width: 400px;
-    height: 300px;
+    width: 800px;
+    height: 400px;
+    border: solid 2px var(--color2);
+    position: relative;
+    z-index: 98;
+}
+
+.examples {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.example-card {
+    position: absolute;
+    background-color: var(--color2);
+    color: var(--color1);
+    margin-right: 260px;
+    z-index: 99;
 }
 
 .examples img {
-    width: 100px;
-    height: 50px;
+    width: 400px;
+    height: 200px;
+    border: solid 2px var(--color2);
+    position: relative;
+    z-index: 98;
+}
+
+.work-example {
+    margin: 20px
 }

@@ -6,7 +6,7 @@ Create a site to showcase work I have compelted, the site itself will need to lo
 ![alt text](./assets/images/challenge-demo.gif)
 
 ## Live site
------Instert screengrab of live site and link to the live version here------
+https://nickrearl.github.io/portfolio_practice/
 
 ## Credits
 Source for banner:

@@ -226,4 +226,48 @@ footer {
     }
 
 
+    .hero{
+        height: 250px;
+    }
+
+
+    .content-section {
+        flex-direction: column;
+    }
+
+    .title {
+        justify-content: center;
+    }
+
+    .about-me-content {
+        border-left: none;
+        border-top: solid 3px var(--color1) ;
+    }
+
+    .work-content {
+        border-left: none;
+        border-top: solid 3px var(--color1);
+    }
+
+    .work-example {
+        flex: 0 0 100%;
+    }
+
+    .example-main img {
+        opacity: 1;
+    }
+
+    .examples img {
+        opacity: 1;
+        width: 90%;
+    }
+
+    .contact-content {
+        border-left: none;
+        border-top: solid 3px var(--color1);
+    }
+}
+
+@media screen and (max-width:752px){
+
 }

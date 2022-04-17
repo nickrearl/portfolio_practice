@@ -5,10 +5,10 @@
 }
 
 :root {
-    --color1: #616161;
-    --color2: #f30000;
-    --color3: #01db30;
-    --color4: #0056ac;
+    --color1: #a84ce6;
+    --color2: #faa01a;
+    --color3: #4c68e6;
+    --color4: #bcfdc7;
 }
 
 body {
@@ -27,7 +27,7 @@ header {
 header h1 {
     font-size: 36px;
     font-weight: bold;
-    background-color: var(--color3);
+    background-color: var(--color2);
     color: var(--color1);
     margin: 12px 12px 12px 0;
     padding: 8px 10px 8px 60px;
@@ -70,7 +70,7 @@ header nav ul li:hover > a {
     display: flex;
     flex-wrap: wrap;
     background-image: url(../images/hero-background.jpg);
-    background-color: lavender;/* set to hexidecimal to match other backgrounds in case image doesn't load*/
+    background-color: var(--color1);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -82,7 +82,7 @@ header nav ul li:hover > a {
 .hero div {
     margin: 0 100px 45px 0;
     padding: 8px;
-    background-color: var(--color3);
+    background-color: var(--color2);
     color: var(--color1);
 }
 
@@ -200,7 +200,7 @@ footer {
 }
 
 .contact-content a {
-    color: var(--color1);
+    color: var(--color3);
 }
 
 .contact-content a img {
@@ -268,6 +268,61 @@ footer {
     }
 }
 
-@media screen and (max-width:752px){
+@media screen and (max-width:768px){
+
+    header {
+        justify-content: center;
+    }
+
+    header nav ul {
+        flex-direction: column;
+    }
+
+    header nav ul li {
+        margin: 10px 0 0 0;
+    }
+
+    .hero {
+        align-items: flex-end;
+        justify-content: center;
+    }
+
+    .hero div {
+        margin: 0 0 10px 0;
+    }
+
+    .hero h2 {
+        text-align: center;
+    }
+
+    .content-section {
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .about-me-content {
+        flex-wrap: wrap;
+    }
+
+    .example-main {
+        flex: 0 0 100%;
+        margin: 0 0 50px 0;
+    }
+
+    .examples {
+        flex: 0 0 100%;
+        margin: 0;
+    }
+
+    .contact-content {
+        flex-wrap: wrap;
+        align-content: center;
+        justify-content: center;
+    }
+
+    .address-block {
+        flex: 0 0 100%;
+    }
 
 }

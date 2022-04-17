@@ -104,6 +104,7 @@ header nav ul li:hover > a {
     font-size: 36px;
     color: var(--color1);
     display: flex;
+    justify-content: flex-end;
     text-align: right;
     flex: 0 0 10%;
 }
@@ -205,4 +206,24 @@ footer {
 .contact-content a img {
     height: 100px;
     width: 100px;
+}
+
+@media screen and (max-width: 980px) {
+    header{
+        flex-flow: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    header h1 {
+        margin: 0;
+        padding: 0 10px 0 10px;
+    }
+
+    header nav ul {
+        margin: 10px 0 10px 0;
+        padding: 0;
+    }
+
+
 }

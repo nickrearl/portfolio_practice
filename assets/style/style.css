@@ -96,6 +96,7 @@ header nav ul li:hover > a {
     border-left: solid 3px var(--color1);
     margin: 40px;
     padding: 20px;
+    flex: 0 0 80%;
 }
 
 .title {
@@ -123,6 +124,7 @@ header nav ul li:hover > a {
     align-items: center;
     margin: 40px;
     padding: 20px;
+    flex: 0 0 80%;
 }
 
 .example-main{
@@ -152,7 +154,9 @@ header nav ul li:hover > a {
     position: relative;
     z-index: 98;
     width: 90%;
-    height: 90%
+    height: 90%;
+    opacity: .5;
+    transition: .3s;
 }
 
 .example-card {
@@ -168,6 +172,16 @@ header nav ul li:hover > a {
     z-index: 98;
     width: 80%;
     height: 70%;
+    opacity: .5;
+    transition: .3s;
+}
+
+.example-main img:hover {
+    opacity: 1;
+}
+
+.examples img:hover {
+    opacity: 1;
 }
 
 footer {
@@ -180,7 +194,7 @@ footer {
     border-left: solid 3px var(--color1);
     margin: 40px;
     padding: 20px;
-    flex: 0 0 90%;
+    flex: 0 0 80%;
     text-align: center;
 }
 
